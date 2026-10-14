@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "ShipWheel BP",
+    "description": "Place a ship wheel on a boat or car build and drive it. By Greenisus1, MIT.",
+    "uuid": "bdc534a4-08df-4c61-b78f-835f238ec2a1",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      40
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b1556d9c-8ced-4bd7-aed7-1c92a40e3385",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "cbcd1705-d1e2-49b0-ada6-70bf79e22520",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a7ef3d44-8f08-49f0-ae77-cc9e72735d99",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    }
+  ]
+}
